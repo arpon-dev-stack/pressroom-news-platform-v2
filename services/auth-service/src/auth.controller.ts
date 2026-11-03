@@ -1,0 +1,1 @@
+import {Controller,Get} from '@nestjs/common';@Controller()export class AuthController{@Get('health')health(){return{service:'auth-service',status:'ok',note:'Login endpoints are the next milestone'}}}
